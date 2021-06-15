@@ -1,0 +1,494 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url("//cdn.web-fonts.ge/fonts/bpg-no9/css/bpg-no9.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+/* header */
+.header-wraper {
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #95A9FF;
+    z-index: 1;
+}
+.navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.nav-ul {
+    padding-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.nav-ul li {
+    margin-right: 30px;
+}
+
+.nav-a {
+    font-size: 22px;
+    color: yellow;
+    font-family: 'Indie Flower', cursive;
+}
+.active {
+    color: yellowgreen;
+}
+.navigation img {
+    width: 80px;
+}
+.fa-bars {
+    font-size: 25px;
+}
+
+
+/* slider */
+.slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px;
+    margin-top: 100px;
+    
+}
+
+.slider .slider-item {
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+}
+.slider .slider_item img {
+    margin:auto;
+    padding: 10px;
+    width: 70%;
+    /* height: 100%; */
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
+       
+}
+body {
+    background-color: white;
+    padding: 30px;
+}
+
+/* section styles */
+.container-images {
+    max-width: 1447px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title-section {
+    text-align: center;
+    font-size: 40px;
+    color: #A80E0E;
+    margin: 50px 0;
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.block-wraper {
+    max-width: 444px;
+    width: 100%;
+    max-height: 537px;
+    height: 100%;
+    
+    
+}
+
+.block-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.block-wraper img {
+    width: 100%;
+    height: 303px;    
+}
+
+.block-image-wraper {
+    padding: 74px 29px 33px 36px;
+}
+
+.btn-price button {
+    background-color: #FFAA00;
+    border-radius: 25px;
+    border: none;
+    width: 164px;
+    height: 40px;
+    color: #fff;
+    margin-right: 12px;
+}
+
+.btn-price p {
+    color: #A80E0E;
+    font-size: 22px;
+}
+
+.btn-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+
+/* contact styles */
+
+.section-bg {
+    margin-top: 100px;
+}
+.container {
+    max-width: 1447px;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.contact-block {
+    margin: 0 auto;
+    /* max-width: 365px; */
+    width: 100%;
+    /* padding-left: 10px; */
+   padding: 50px;
+}
+
+.left-block {
+    background-image: url(../images/contact-bg.jpg);
+    padding: 20px;
+    /* max-width: 900px; */
+    max-width: 680px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: 20px;
+ 
+}
+
+.right-block {
+    /* max-width: 900px; */
+    max-width: 680px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.call-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* justify-content: center; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
+}
+.call-form {
+    background-color: #FFAA00;
+    width: 118px;
+    height: 41px;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    margin-right: 12px;
+    font-family: 'Indie Flower', cursive;
+}
+.phone {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+}
+.clock,
+.placeholder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* justify-content: center; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.clock {
+    margin: 59px 0;
+}
+.clock-title {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.dashoreba {
+    margin-right: 30px;
+}
+
+.icon-block {
+    width: 57px;
+    height: 57px;
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+.icon-block img {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50% -50%);
+        -ms-transform: translate(-50% -50%);
+            transform: translate(-50% -50%);
+}
+
+
+/* staff */
+.block-wraper-staff {
+    max-width: 444px;
+    width: 100%;
+}
+
+.block-wraper-staff img:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.block-images-staff {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.block-wraper-staff:nth-child(1),
+.block-wraper-staff:nth-child(2),
+.block-wraper-staff:nth-child(3) {
+    margin-bottom: 56px;
+}
+.block-wraper-staff img {
+    margin: 0 auto;
+    display: table;
+    padding-top: 80px;
+}
+.block-image-wraper-staff {
+    padding: 15px 29px 33px 36px;
+}
+.img3 {
+    vertical-align: middle;
+    max-width: 300px;
+    width:100%;
+}
+.title1 {
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "BPG No9", sans-serif;
+    color: turquoise;
+}
+
+.text1 {
+    font-family: "BPG No9", sans-serif;
+    color:turquoise
+}
+
+
+/* footer */
+.contactono3 {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.contact-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.cinfo {
+    margin-bottom: 2px;
+}
+.title2 {
+    font-weight: 800;
+    margin: 10px 0 10px 0;
+	color: #F7157E;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.text {
+	font-size: 15px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: black;
+}
+
+.fav-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    background-color:  #3bc775;
+    border-radius: 50px;
+}
+
+.fav-icon:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: #F7157E;
+}
+
+
+
+
+.facebook {
+	font-size: 36px;
+	margin-right: 5px;
+	color: #3bc775;
+}
+.facebook:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	color: #f7157e;
+}
+.face{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.instagram{
+	font-size: 36px;
+	margin-right: 5px;
+	color: #3bc775;
+}
+.instagram:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	color: #f7157e;
+}
+
+.face-title {
+    font-size:22px;
+    color: #f7157e;
+    font-family: 'Indie Flower', cursive;
+}
+.map-title {
+    color: black;
+}
+
+.footer-wraper {
+    
+    padding: 0px;
+    background-color: #eeeeee;
+    width: 100%;
+    
+    /* bottom: 0px;
+    left: 0px; */
+    
+}
+
+.email a {
+    font-family: 'Indie Flower', cursive;
+}
+.tel a {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.map-title {
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.image-chat {
+    height: 60px;
+    -webkit-animation: heartBeat 3s infinite;
+            animation: heartBeat 3s infinite;
+    
+}
+
+.chat-icon {
+    position:fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 18;
+}

@@ -1,0 +1,182 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+@media (max-width: 960px) {
+    .block-wraper {
+        width: 48%;
+    }
+}
+
+/* @media (max-width: 720px) {
+    .block-wraper {
+        width: 100%;
+    }
+} */
+
+@media (max-width: 480px) {
+    .block-wraper {
+        width: 100%;
+    }
+    .btn-price {
+        width: 100%;
+    }
+    .btn-price p {
+        font-size: 12px;
+    }
+    .nav-a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1447px) {
+    .left-block,
+    .right-block {
+        width: 48%;
+    }
+}
+
+@media (max-width: 920px) {
+    .phone {
+        font-size: 15px;
+    }
+    .clock-title {
+        font-size: 13px;
+    }
+    .call-form {
+        width: 150px;
+    }
+    .dashoreba {
+        width: 150px;
+    }
+    .left-block {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 840px) {
+    .call-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .clock {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column ;
+                flex-direction: column ;
+    }
+    .placeholder {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .phone {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .clock-title {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .call-form {
+        width: 150px;
+    }
+    .dashoreba {
+        width: 60px;
+    }
+    .left-block {
+        padding: 0;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .left-block {
+        width: 100%;
+    }
+    .right-block {
+        width: 100%;
+    }
+    
+    .call-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .clock {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column ;
+                flex-direction: column ;
+    }
+    .placeholder {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .phone {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .clock-title {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .call-form {
+        width: 150px;
+    }
+    .dashoreba {
+        width: 60px;
+    }
+    .left-block {
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 915px) {
+    .block-wraper-staff {
+        width: 48%;
+    }
+    .block-wraper-staff:nth-child(4) {
+        margin-bottom: 56px;
+    }
+}
+@media (max-width: 480px) {
+    .block-wraper-staff {
+        width: 100%;
+    }
+}
